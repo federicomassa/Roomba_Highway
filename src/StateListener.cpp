@@ -17,7 +17,7 @@ void StateReceived(const irobotcreate2::SensingVector& sv)
 
   for (int i = 0; i < sv.sList.size(); i++)
     {
-      msg += "[ID: " << std::to_string(sv.sList[i].id) << "\tx: " + std::to_string(sv.sList[i].x) + "\ty: " + std::to_string(sv.sList[i].y) + "\ttheta: " + 
+      msg += "[ID: " + std::to_string(sv.sList[i].id) + "\tx: " + std::to_string(sv.sList[i].x) + "\ty: " + std::to_string(sv.sList[i].y) + "\ttheta: " + 
 	std::to_string(sv.sList[i].theta) + "\tv: " + std::to_string(sv.sList[i].v) + "]\n";
     }
 
