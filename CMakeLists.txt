@@ -41,7 +41,8 @@ add_message_files(
   RoombaSwitch.msg
   ScheduleLeds.msg
   Song.msg
-  State.msg
+  Sensing.msg
+  SensingVector.msg
   WheelDrop.msg
 )
 
